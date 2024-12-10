@@ -43,7 +43,6 @@ nav a {
 
 main {
     max-width: 1200px;
-    margin: 20px auto;
     padding: 20px;
 }
 
@@ -53,34 +52,51 @@ h2 {
     margin-bottom: 20px;
 }
 
-.about h2, .education h2 {
+.about h2 {
         text-align: center;
         font-size: 36px;
         margin-bottom: 30px;
         }
+    
+.education h2 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 600px;
+        }
 
-.about-content, .education-item {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 40px;
-}
 
-.about-content img, .education-item img {
-    flex: 1;
-    max-width: 300px;
+.about-content img {
+    float: left;
+    width: 350px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about-content p, .education-item p {
-    flex: 2;
-    font-size: 20px;
-    text-align: justify;
+.education-item img {
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+  margin-top: 100px;
+}
+
+.about-content p {
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -500px
+}
+    
+.education-item p {
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -200px
+
 }
 
 .education-item h3 {
+  float: right;
     font-size: 25px;
     text-align: left;
 }
